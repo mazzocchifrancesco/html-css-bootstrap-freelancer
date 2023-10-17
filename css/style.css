@@ -1,0 +1,16 @@
+header {
+    background-color: #2f3e50;
+}
+#jumbo {
+    background-color: #3fbc97;
+}
+#jumbo .row {justify-content: center;}
+
+
+
+
+/* MEDIA QUERY */
+
+ @media all and (min-width:768px) {
+    #menu {display: none;}
+ }
