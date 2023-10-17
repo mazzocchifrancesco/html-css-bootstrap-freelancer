@@ -12,9 +12,13 @@ header {
     width: 100%;
     border-radius: 10px;
 }
-
-
-
+footer {
+    background-color: #404f67;
+    color: white;
+    text-align: center;
+}
+p {margin: 0;}
+#copyright {background-color: #263f4c ;}
 /* MEDIA QUERY */
 
  @media all and (min-width:768px) {
