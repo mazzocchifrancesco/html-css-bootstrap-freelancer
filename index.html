@@ -18,10 +18,10 @@
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
                 <a class="navbar-brand text-white fw-bold fs-3" href="#">START BOOTSTRAP</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon invert1"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
@@ -82,10 +82,10 @@
 
         <!-- PORTFOLIO -->
 
-        <section id="portfolio" class="container text-center py-5">
+        <section id="portfolio" class="container text-center py-5 text_second">
             <div class="row justify-content-center">
                 <div class="col-4">
-                    <h2 class="fw-bold">PORTFOLIO</h2>
+                    <h2 class="fw-bold text_second">PORTFOLIO</h2>
                 </div>
             </div>
 
@@ -107,23 +107,41 @@
             </div>
 
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img src="img/cabin.png" alt="" class="img-fluid">
+                <div class="col-12 col-md-6 col-lg-4 mb-2">
+                    <div class="bg_main img_col position-relative">
+                        <img src="img/cabin.png" alt="" class="img-fluid overlay">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img src="img/cake.png" alt="" class="img-fluid">
+                <div class="col-12 col-md-6 col-lg-4 mb-2">
+                    <div class="bg_main img_col position-relative">
+                        <img src="img/cake.png" alt="" class="img-fluid overlay">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img src="img/circus.png" alt="" class="img-fluid">
+                <div class="col-12 col-md-6 col-lg-4 mb-2">
+                    <div class="bg_main img_col position-relative">
+                        <img src="img/circus.png" alt="" class="img-fluid overlay">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img src="img/game.png" alt="" class="img-fluid">
+                <div class="col-12 col-md-6 col-lg-4 mb-2">
+                    <div class="bg_main img_col position-relative">
+                        <img src="img/game.png" alt="" class="img-fluid overlay">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img src="img/safe.png" alt="" class="img-fluid">
+                <div class="col-12 col-md-6 col-lg-4 mb-2">
+                    <div class="bg_main img_col position-relative">
+                        <img src="img/safe.png" alt="" class="img-fluid overlay">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <img src="img/submarine.png" alt="" class="img-fluid">
+                <div class="col-12 col-md-6 col-lg-4 mb-2">
+                    <div class="bg_main img_col position-relative">
+                        <img src="img/submarine.png" alt="" class="img-fluid overlay">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
                 </div>
             </div>
         </section>
@@ -210,7 +228,7 @@
                     <div class="col-12 col-lg-10 text_second fw-semibold">
                         <form>
                             <label for="name">Name</label><br>
-                            <input type="text" id="name" name="name"><br>
+                            <input placeholder="Name" type="text" id="name" name="name"><br>
                             <label for="email">Email Address</label><br>
                             <input type="email" id="email" name="email">
                             <label for="phone-number">Phone Number</label>
