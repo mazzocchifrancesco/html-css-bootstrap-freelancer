@@ -1,26 +1,71 @@
+
+:root {
+    --main_color: #3fbc97;
+    --second_color: #2f3e50;
+}
+
+/* root class */
+
+.bg-main {background-color: var(--main_color);}
+.bg-second {background-color: var(--second_color);}
+.text-main {color: var(--main_color);}
+.text-second {color: var(--second_color);}
+
 body {font-family: sans-serif;
 }
-header {
+/* HEADER */
+
+header {    }
+nav {
+    color: white;
+    height: 6rem;
     background-color: #2f3e50;
 }
+/* JUMBO */
+
 #jumbo, #about {
     background-color: #3fbc97;
 }
-.row {justify-content: center;}
+#jumbo {
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+}
+h1 {font-size: 4rem;}
+h2 {font-size: 3rem;}
+.div_bar {
+    height: 3px;
+    width: 100%;
+    border-radius: 3px;
+    align-content: center;
+}
+
 #portfolio {color: #1c3448;}
 #portfolio img {
-    width: 100%;
     border-radius: 10px;
+    margin-bottom: 1rem;
 }
+
 footer {
     background-color: #404f67;
     color: white;
     text-align: center;
 }
-p {margin: 0;}
+
+/* CONTACT ME */
+
+input, textarea {
+    outline: 0;
+    border: none;
+    border-bottom: solid 1px lightgray;
+    width: 100%;
+  }
+textarea {
+    resize: vertical;
+    height: 8rem;
+}
+
 #copyright {background-color: #263f4c ;}
 /* MEDIA QUERY */
 
  @media all and (min-width:768px) {
-    #menu {display: none;}
  }
