@@ -1,15 +1,18 @@
 
 :root {
     --main_color: #3fbc97;
-    --second_color: #2f3e50;
+    --second_color: #354552;
+    --third_color: #404f67;
 }
 
 /* root class */
 
-.bg-main {background-color: var(--main_color);}
-.bg-second {background-color: var(--second_color);}
-.text-main {color: var(--main_color);}
-.text-second {color: var(--second_color);}
+.bg_main {background-color: var(--main_color);}
+.bg_second {background-color: var(--second_color);}
+.bg_third {background-color: var(--third_color);}
+.text_main {color: var(--main_color);}
+.text_second {color: var(--second_color);}
+.text_third {color: var(--third_color);}
 
 body {font-family: sans-serif;
 }
@@ -21,11 +24,9 @@ nav {
     height: 6rem;
     background-color: #2f3e50;
 }
+
 /* JUMBO */
 
-#jumbo, #about {
-    background-color: #3fbc97;
-}
 #jumbo {
     padding-top: 10rem;
     padding-bottom: 4rem;
@@ -45,6 +46,10 @@ h2 {font-size: 3rem;}
     margin-bottom: 1rem;
 }
 
+/* CONTACT ME */
+
+input, textarea {margin-bottom: 1rem;}
+
 footer {
     background-color: #404f67;
     color: white;
@@ -63,7 +68,16 @@ textarea {
     resize: vertical;
     height: 8rem;
 }
+/* FOOTER */
 
+.icon_container {
+    width: 3rem;
+    aspect-ratio: 1;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 #copyright {background-color: #263f4c ;}
 /* MEDIA QUERY */
 

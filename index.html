@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
-                <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
+                <a class="navbar-brand text-white fw-bold fs-3" href="#">START BOOTSTRAP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
     <main>
 
         <!-- JUMBOTRON -->
-        <section id="jumbo" class="text-white text-center">
+        <section id="jumbo" class="text-white text-center bg_main">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-4 col-lg-4 col-6">
@@ -89,18 +89,18 @@
                 </div>
             </div>
 
-            <!-- star bar -->
+            <!--dark star bar -->
             <div class="row justify-content-center py-3">
                 <div class="col-md-8 col-lg-8 col-12">
                     <div class="row justify-content-center">
                         <div class="col-4 d-flex align-content-center flex-wrap">
-                            <div class="div_bar bg-second"></div>
+                            <div class="div_bar bg_second"></div>
                         </div>
                         <div class="col-1">
-                            <i class="fa fa-star fs-4 text-second"></i>
+                            <i class="fa fa-star fs-4 text_second"></i>
                         </div>
                         <div class="col-4 d-flex align-content-center flex-wrap">
-                            <div class="div_bar bg-second"></div>
+                            <div class="div_bar bg_second"></div>
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
 
         <!-- ABOUT -->
 
-        <section id="about" class="text-white text-center py-5">
+        <section id="about" class="text-white text-center py-5 bg_main">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-4">
@@ -155,7 +155,7 @@
                     </div>
                 </div>
 
-                <div class="row text-start justify-content-center">
+                <div class="row text-start justify-content-center pb-5">
                     <div class="col-10 col-md-6 col-lg-5 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quaerat
                         assumenda nam, ipsa consequatur ab maxime exercitationem beatae quam et ratione, esse
@@ -171,7 +171,10 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-4">
-                        <button class="btn">DOWNLOAD</button>
+                        <button class="btn border-white text-white">
+                            <i class="fa fa-download"></i>
+                            <span class="fw-bold">Download</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -181,17 +184,30 @@
         <section id="contact_me" class="py-5">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-4">
-                        <h2>CONTACT ME</h2>
+                    <div class="col-4 text-center">
+                        <h2 class="fw-bold text_second">CONTACT ME</h2>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-4">
-                        divisore
+
+                <!--dark star bar -->
+                <div class="row justify-content-center py-3">
+                    <div class="col-md-8 col-lg-8 col-12">
+                        <div class="row justify-content-center">
+                            <div class="col-4 d-flex align-content-center flex-wrap">
+                                <div class="div_bar bg_second"></div>
+                            </div>
+                            <div class="col-1 text-center">
+                                <i class="fa fa-star fs-4 text_second"></i>
+                            </div>
+                            <div class="col-4 d-flex align-content-center flex-wrap">
+                                <div class="div_bar bg_second"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-10">
+                    <div class="col-12 col-lg-10 text_second fw-semibold">
                         <form>
                             <label for="name">Name</label><br>
                             <input type="text" id="name" name="name"><br>
@@ -206,7 +222,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-10">
-                        <button class="btn">Send</button>
+                        <button class="btn text-white bg_main fw-bold">Send</button>
                     </div>
                 </div>
             </div>
@@ -214,33 +230,53 @@
 
         <!-- FOOTER -->
         <footer>
-            <div class="container py-4">
-                <div class="row">
+
+            <div class="container py-5">
+                <div class="row fw-medium">
                     <div class="col-12 col-md-4">
-                        <p>LOCATION</p>
+                        <p class="fw-bold">LOCATION</p>
                         <p>2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <p>AROUND THE WEB</p>
-                        <p>icone</p>
+                    <div class="col-12 col-md-4 justify-content-center">
+                        <p class="fw-bold">AROUND THE WEB</p>
+                        <!-- icone social -->
+                        <div class="d-flex justify-content-center">
+                            <div class="icon_container rounded-circle bg_third border border-white text-white mx-2">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="icon_container rounded-circle bg_third border border-white text-white mx-2">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </div>
+                            <div class="icon_container rounded-circle bg_third border border-white text-white mx-2">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="icon_container rounded-circle bg_third border border-white text-white mx-2">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+
+                        </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <p>ABOUT FREELANCER</p>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+                        <p class="fw-bold">ABOUT FREELANCER</p>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#"
+                                class="text_main text-decoration-none">Start Bootstrap.</a></p>
                     </div>
                 </div>
             </div>
 
             <!-- coopyright -->
-            <section id="copyright" class="py-4">
+            <section id="copyright" class="py-5">
+
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-8">
-                            <p>copyright C Your Website 2019</p>
+                            <p>Copyright &copy; Your Website 2019</p>
                         </div>
                     </div>
                 </div>
+
             </section>
+
         </footer>
     </main>
 
