@@ -1,7 +1,7 @@
 
 :root {
     --main_color: #3fbc97;
-    --second_color: #354552;
+    --second_color: #2f3e50;
     --third_color: #404f67;
 }
 
@@ -15,32 +15,26 @@
 .text_third {color: var(--third_color);}
 
 /* general class */
-.invert1 {filter: invert(1)}
 
-body {font-family: sans-serif;
+h1 {font-size: 4rem;}
+h2 {font-size: 3rem;}
+body {font-family: sans-serif;}
+.div_bar {
+    height: 3px;
+    width: 100%;
+    border-radius: 3px;
+    align-content: center;
 }
+
 /* HEADER */
 
-header {    }
-nav {
-    color: white;
-    height: 6rem;
-    background-color: #2f3e50;
-}
+nav {min-height: 6rem;}
 
 /* JUMBO */
 
 #jumbo {
     padding-top: 10rem;
     padding-bottom: 4rem;
-}
-h1 {font-size: 4rem;}
-h2 {font-size: 3rem;}
-.div_bar {
-    height: 3px;
-    width: 100%;
-    border-radius: 3px;
-    align-content: center;
 }
 
 /* PORTFOLIO */
@@ -57,21 +51,15 @@ h2 {font-size: 3rem;}
     font-size: 3rem;
     display: none;
 }
+
 /* CONTACT ME */
-
-input, textarea {margin-bottom: 1rem;}
-
-footer {
-    background-color: #404f67;
-    color: white;
-    text-align: center;
-}
 
 input, textarea {
     outline: 0;
     border: none;
     border-bottom: solid 1px lightgray;
     width: 100%;
+    margin-bottom: 1rem;
   }
 textarea {
     resize: vertical;
@@ -87,8 +75,6 @@ textarea {
     flex-wrap: wrap;
     justify-content: center;
 }
-#copyright {background-color: #263f4c ;}
-
 
 /* HOOVER */
 
@@ -99,3 +85,13 @@ nav a:hover {
 
 .overlay:hover {opacity: 30%;}
 .overlay:hover + .fa-plus {display: block;}
+
+#contact_me .btn:hover {
+    border-color: var(--main_color);
+    color: var(--main_color)!important;
+}
+#about .btn:hover {
+    border-color: var(--main_color);
+    background-color: white;
+    color: var(--main_color)!important;
+}
